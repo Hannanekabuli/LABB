@@ -60,7 +60,7 @@ get_header();
 										<h2>Sidor</h2>
 										<?php
 										$sidorArray = [
-											'theme_location' => 'bloggsidomeny',
+											'theme_location' => 'bloggsidesidor',
 											'depth'=>'4',
 										];
 										/* visar sido-menyn */
