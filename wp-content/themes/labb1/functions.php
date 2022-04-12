@@ -51,6 +51,7 @@ function show_my_menus(){
     register_nav_menu('bloggsidesidor', 'Blogg sidomeny sidor');
     register_nav_menu('bloggsidearkiv', 'Blogg sidomeny arkiv');
     register_nav_menu('bloggsidekategorier', 'Blogg sidomeny kategorier');
+    register_nav_menu('footer-copyright', 'footer-copyright');
 }
 
 add_action('after_setup_theme', 'show_my_menus'); 
@@ -75,6 +76,15 @@ register_sidebar(
         'before_widget' => ' '
     ]
 );
+register_sidebar(
+    [
+        'name' => 'footer-copyright',
+        'Description' => 'placering3 footer',
+        'id' => 'footer-copyright',
+        'before_widget' => ' '
+    ]
+);
+
 
 
 
