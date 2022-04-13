@@ -13,7 +13,7 @@
 								/* tar fram en post och tar samtidigt bort den ur listan */
                                 the_post();  
 							?>
-							<img src="/images/city.jpg">
+							<img src="
 							<?php  
 							/* hämtar img-url */
 							the_post_thumbnail_url(); 

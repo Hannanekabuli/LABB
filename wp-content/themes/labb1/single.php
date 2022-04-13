@@ -60,8 +60,7 @@ get_header();
 										<h2>Sidor</h2>
 										<?php
 										$sidorArray = [
-											'theme_location' => 'bloggsidesidor',
-											'depth'=>'4',
+											'theme_location' => 'bloggsidesidor'
 										];
 										/* visar sido-menyn */
 										wp_nav_menu($sidorArray);

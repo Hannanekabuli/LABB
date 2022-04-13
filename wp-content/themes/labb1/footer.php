@@ -38,7 +38,7 @@
         </div>
         <div class="row bottom">
             <div class="col-xs-12">
-            <?php dynamic_sidebar('footer-copyright'); ?> 
+              <?php dynamic_sidebar('footer-copyright'); ?> 
                 
             </div>
         </div>
@@ -50,4 +50,5 @@
 wp_footer();
 ?>
 </body>
+
 </html>

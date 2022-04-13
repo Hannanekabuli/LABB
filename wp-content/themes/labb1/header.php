@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-    <?php wp_head(); ?>
+	<meta charset="UTF-8" />
+	<title>Labb 1</title>
+    <?php
+	/* Används av wordpress för att köra många olika funktioner.. */
+    wp_head();
+    ?>
 </head>
 <body>
 

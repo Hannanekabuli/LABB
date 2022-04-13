@@ -2,17 +2,12 @@
 Theme Name: Labb 1
 */
 
-/* General styles
------------------------------------------------------------------- */
-/* General styles
------------------------------------------------------------------- */
-/*
 * {
 	outline: none;
 }
 
 body {
-	background-color: #eee;
+	background-color: #eee !important;
 }
 
 a {
@@ -42,7 +37,7 @@ label {
 input[type="text"],
 input[type="email"] {
 	display: block;
-	min-width: 200px;
+	width: 200px !important;
 }
 
 input[type="submit"] {
@@ -50,7 +45,7 @@ input[type="submit"] {
 }
 
 textarea {
-	min-width: 200px;
+	width: 200px !important;
 }
 
 /* Header styles
@@ -324,17 +319,6 @@ article .meta {
 
 }
 
-.side-menu {
-	margin: 0;
-	padding: 0;
-}
-
-	.side-menu > li {
-		border-bottom: solid 1px #ccc;
-		list-style: none;
-		padding: 10px 0;
-	}
-
 .searchform-wrap {
 	margin-bottom: 30px;
 }
@@ -506,18 +490,6 @@ article .meta {
 		margin: 0;
 		padding: 0;
 	}
-
-		#footer .social > li {
-			list-style: none;
-			margin-bottom: 5px;
-		}
-
-			#footer .social > li > .fa {
-				margin-right: 5px;
-				min-width: 20px;
-				text-align: center;
-			}
-
 @media ( max-width: 768px ) {
 
 #footer h4 {
