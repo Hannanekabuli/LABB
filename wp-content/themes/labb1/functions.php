@@ -32,6 +32,7 @@ function show_my_menus(){
     register_nav_menu('bloggsidearkiv', 'Blogg sidomeny arkiv');
     register_nav_menu('bloggsidekategorier', 'Blogg sidomeny kategorier');
     register_nav_menu('footer-copyright', 'footer-copyright');
+     
 }
 
 /* skapar område att placera widgets på */
@@ -59,8 +60,6 @@ register_sidebar(
         'before_widget' => ' '
     ]
 );
-
-
 
 
 /* the_excerpt() visar per default 55 ord, detta gör att upp till 1000 ord kan visas 

@@ -1,45 +1,27 @@
-<?php
-/* hämtar header.php */
- get_header();
-?>
-	<section>
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="hero">
-                            <?php
-							/* loopar igenom en lista med posts */
-                            while( have_posts()){
-								/* tar fram en post och tar samtidigt bort den ur listan */
-                                the_post();  
-							?>
-							<img src="
-							<?php  
-							/* hämtar img-url */
-							the_post_thumbnail_url(); 
-							?>" />
-								<div class="text">
-									<h1>
-										<?php 
-										/* visar titeln */
-										the_title(); 
-										?>
-										</h1>
-									<?php 
-									/* visar texten */
-									the_excerpt(); 
-									?>
-								</div>
 
-							<?php 
-                            }
-                            ?>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-<?php
-/* hämtar footer.php */
- get_footer();
-?>
+   
+<?php get_header(); ?>
+
+<main>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="hero">
+                    <?php
+                    while (have_posts()) {
+                        the_post(); ?>
+                        <?php the_post_thumbnail(null, ['class' => 'img-responsive responsive--full', 'title' => 'Feature image'] );?>
+                        <div class="text">
+                            <h1><?php the_title(); ?></h1>
+                            <p><?php the_content(); ?></p>
+                        </div>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<?php get_footer(); ?>

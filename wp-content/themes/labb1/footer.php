@@ -39,7 +39,6 @@
         <div class="row bottom">
             <div class="col-xs-12">
               <?php dynamic_sidebar('footer-copyright'); ?> 
-                
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes() ?>>
 <head>
 	<meta charset="UTF-8" />
 	<title>Labb 1</title>
