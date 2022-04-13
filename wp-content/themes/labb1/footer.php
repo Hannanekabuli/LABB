@@ -39,7 +39,7 @@
         <div class="row bottom">
             <div class="col-xs-12">
             <?php dynamic_sidebar('footer-copyright'); ?> 
-                <p>Copyright &copy; Grupp X, 2016</p>
+                
             </div>
         </div>
     </div>
